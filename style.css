@@ -192,16 +192,19 @@ header{
 }
 
 .project-container{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* allows items to wrap to the next line */
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .project-card{
-    border:1px solid #ddd;
-    padding:20px;
-    width:250px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;         /* default for mobile */
+    max-width: 250px;    /* max width on larger screens */
+    box-sizing: border-box; /* include padding in width */
 }
 
 /* CONTACT */
