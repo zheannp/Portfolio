@@ -92,7 +92,7 @@ const responses = {
   "zee": "That's my master! Check out the contact section to get in touched with my master 😆",
 
   // Default
-  "default": "Sorry, I don’t know about that yet. Try asking about my skills or projects!"
+  "default": "Sorry, I don’t know about that yet. Try checking out contact section to get in touch with Zhean!😊"
 };
 
 const input = document.getElementById("chat-input");
